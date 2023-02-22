@@ -1,1 +1,4 @@
 .DS_Store
+
+# VS Code Plugins
+.lh/
