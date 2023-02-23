@@ -1,14 +1,14 @@
 
-* [JavaScript](pages/browser/index)
-* [CSS](pages/browser/index)
-* [HTML](pages/browser/index)
-* [Browser](pages/browser/index)
-* [Network](pages/browser/index)
+* [JavaScript](browser/index)
+* [CSS](browser/index)
+* [HTML](browser/index)
+* [Browser](browser/index)
+* [Network](browser/index)
 * React
-	* [React](pages/browser/index)
-	* [React-Router](pages/browser/index)
+	* [React](browser/index)
+	* [React-Router](browser/index)
 * Vue
-	* [Vue](pages/browser/index)
-	* [Vuex](pages/browser/index)
-* [Other](pages/other/install-homebrew)
+	* [Vue](browser/index)
+	* [Vuex](browser/index)
+* [Other](other/install-homebrew)
 

@@ -16,10 +16,23 @@
   <script>
     window.$docsify = {
       loadNavbar: true,
-      loadSidebar: true,
+			loadSidebar: true,
+			autoHeader: true,
+			// basePath: '/pages/',
       alias: {
-        '/.*/_navbar.md': '/_navbar.md',
-        // '/.*/_sidebar.md': '/_sidebar.md',
+				// "/(?!pages).*": (match) => {
+				// 	return `/pages${match}`;
+				// },
+				// "/(?!pages)(?!_sidebar).*": (match) => {
+				// 	console.log(999, match)
+				// 	return `/pages${match}`;
+				// },
+				"/(?!pages)(?![^\/]+\b).*": (match) => {
+					console.log(999, match)
+					return `/pages${match}`;
+				},
+
+				'/.*/_navbar.md': '_navbar.md',
       },
       // maxLevel: 2,
       subMaxLevel: 3,
