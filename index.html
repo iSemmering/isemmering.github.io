@@ -27,9 +27,9 @@
         */
         "/(?!pages)(?![^\/]+$).*": (match) => `/pages${match}`,
         '/.*/_navbar.md': '_navbar.md',
+        '/.*/_sidebar.md': '/_sidebar.md'
       },
-      // maxLevel: 2,
-      subMaxLevel: 3,
+      subMaxLevel: 4,
       copyCode: {
         buttonText: 'copy',
         errorText: '复制失败！',
@@ -66,11 +66,10 @@
       }
     }
   </script>
-  <script src="assets/js/docsify/lib/plugins/docsify-copy-code.min.js"></script>
   <script src="assets/js/docsify@4/docsify@4.js"></script>
   <script src="assets/js/docsify/lib/plugins/search.min.js"></script>
   <script src="assets/js/docsify/lib/plugins/docsify-copy-code.min.js"></script>
-  <script src="assets/js/docsify/lib/plugins/progress.min.js"></script>
+  <!-- <script src="assets/js/docsify/lib/plugins/progress.min.js"></script> -->
 </body>
 
 </html>
