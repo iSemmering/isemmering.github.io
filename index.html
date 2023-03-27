@@ -26,6 +26,7 @@
          * (?![^\/]+$)表示如果匹配到的路径只有一个"/"时也不匹配，不然读取根目录的“_sidebar.md”或者其他文件时，
          * 路径会被替换成"/pages/_sidebar.md"
         */
+       "/":"/javaScript/index",
         "/(?!pages)(?![^\/]+$).*": (match) => `/pages${match}`,
         '/.*/_navbar.md': '_navbar.md',
         '/.*/_sidebar.md': '/_sidebar.md'
